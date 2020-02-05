@@ -1,4 +1,10 @@
-import {inputDate} from '../src/inputDate'
-import {Days} from '../src/date'
 
-let test = new inputDate("02", "04", "2021");
+
+
+$(document).ready(function () {
+  $("#date-form").submit(function (event) {
+    event.preventDefault();
+    let test = $("input#goal").val();
+    $("#solution").text(test);
+  });
+});
