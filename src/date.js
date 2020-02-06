@@ -1,6 +1,6 @@
 export class Days{
-  constructor(day){
-    this.day=day;
+  constructor(){
+    this.day;
   }
   findDay(day){
     if (day === 0){
